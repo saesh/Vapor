@@ -113,6 +113,8 @@ article.preview p.readmore {
   height: 100px;
   border-radius: 50%;
   -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   background-color: #ffffff;
@@ -225,6 +227,8 @@ div.authorimage {
   height: 70px;
   border-radius: 50%;
   -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
   background-size: cover !important;
   background-position: center center !important;
   margin-right: 10px;
