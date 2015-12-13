@@ -70,6 +70,15 @@ p code {
   font-family: "Consolas", Courier, monospace;
   font-size: .8em;
   line-height: 1.2em;
+  padding: 0.2rem 0.3rem 0.1rem;
+  border: 1px solid #D8E0E4;
+  background: #F5F7F8 none repeat scroll 0% 0%;
+  border-radius: 2px;
+  color: #C25;
+  vertical-align: middle;
+  white-space: pre-wrap;
+  font-size: 0.8em;
+  line-height: 1em;
 }
 h1 {
   color: #151515;

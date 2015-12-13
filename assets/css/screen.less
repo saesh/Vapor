@@ -23,6 +23,11 @@
 @postmetaColor: #95a5a6;
 @gistBackgroundColor: #fdfdfd;
 
+// inline code
+@codeBackgroundColor: #F5F7F8;
+@codeBorderColor: #D8E0E4;
+@codeColor: #C25;
+
 @maxPageWidth: 900px;
 
 // Mixins
@@ -104,6 +109,15 @@ p code {
     font-family: @preFontFamily;
     font-size: .8em;
     line-height: 1.2em;
+    padding: 0.2rem 0.3rem 0.1rem;
+    border: 1px solid @codeBorderColor;
+    background: @codeBackgroundColor none repeat scroll 0% 0%;
+    border-radius: 2px;
+    color: @codeColor;
+    vertical-align: middle;
+    white-space: pre-wrap;
+    font-size: 0.8em;
+    line-height: 1em;
 }
 
 h1 {
