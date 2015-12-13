@@ -86,7 +86,7 @@ article.preview,
 a.archive-link,
 .article-nav {
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 900px;
   width: 90%;
 }
 #site-head img {
@@ -300,7 +300,7 @@ nav {
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
-  max-width: 600px;
+  max-width: 900px;
 }
 nav ul {
   list-style: none;
